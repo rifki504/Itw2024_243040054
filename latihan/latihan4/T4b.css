@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(wp4216596.jpg);
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: blue;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+
+.hero {
+    height: 400px;
+    background-image: url(tekno.jpg);
+    background-size: cover;
+    background-position: 0 -120px;
+    border-bottom: 5px solid orangered;
+    border-top: 5px solid blue;
+}
+
+.hero2 {
+    height: 530px;
+    background-image: url(tekno2.jpg);
+    background-size: cover;
+    background-position: 0 -15px;
+    border-bottom: 5px solid orangered;
+    border-top: 5px solid blue;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.content2 {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: bold
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis a {
+    color: blue;
+    text-decoration: none;
+}
+
+.content p {
+    margin-top: 20px;
+    font-size: 14px; 
+}
+
+.content2 p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}

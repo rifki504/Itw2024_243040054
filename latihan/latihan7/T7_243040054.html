@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skyline.eol</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="T7_243040054.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Eternity Of Love</h2>
+          <p class="sub-heading">Hoodie</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 349K</h4>
+          <p class="item">Hoodie</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 300k</h4>
+          <p class="item">Hoodie</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Skyline.eol</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">👕</div>
+          <h3>Artikel</h3>
+          <p>
+            Sebuah desain hoodie yang kerap dipilih oleh banyak orang karena
+            menggabungkan kenyamanan pakaian sehari-hari dengan elemen seni dan
+            simbolisme yang mendalam.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">👥</div>
+          <h3>Layanan Pelangan</h3>
+          <p>
+            Halo, terima kasih telah menghubungi kami! Kami sangat senang Anda
+            tertarik dengan produk kami, Hoodie "Eternity of Love". Kami siap
+            membantu Anda dengan informasi produk, pemesanan, pengembalian, atau
+            pertanyaan lainnya.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">✨</div>
+          <h3>Promo</h3>
+          <p>
+            Nikmati promo spesial untuk Hoodie "Eternity of Love" yang tidak
+            hanya memberikan kenyamanan tetapi juga makna mendalam! Dapatkan
+            diskon besar dan penawaran eksklusif hanya untuk waktu terbatas.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🚛</div>
+          <h3>Pengiriman Antar Kota</h3>
+          <p>
+            Halo, terima kasih telah memilih produk kami! Kami senang Anda
+            tertarik untuk membeli Hoodie "Eternity of Love". Kami siap
+            mengirimkan pesanan Anda ke kota mana pun di seluruh Indonesia
+            dengan pengiriman yang cepat dan aman. Berikut adalah informasi
+            penting mengenai pengiriman antar kota
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="img/11.jpg" alt="" />
+        <img src="img/14.jpg" alt="" />
+        <img src="img/12.jpg" alt="" />
+        <img src="img/13.jpg" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
